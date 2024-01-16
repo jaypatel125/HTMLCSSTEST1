@@ -1,0 +1,71 @@
+/* jaypatel, 000881881 */
+
+body
+			{font-family: Arial, Hevletica, Verdana, sans-serif;
+			margin: 0px 80px 0px 80px;}
+		
+		nav
+			{background-color:#002146;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			position: sticky;}
+			
+		nav a
+			{text-decoration:none;
+			color: #f3714a;
+			background-color:white;
+			padding: 8px 10px 8px 10px;}
+			
+		nav a:hover
+			{color:#002146;
+			text-decoration:underline;}
+			
+		nav li
+			{list-style-type: none;
+			display: inline;}
+		
+		h3
+			{border-bottom:1px solid #f3714a;
+			text-align:center;}
+	
+		main
+		{display:grid;
+		grid-template-columns:1fr 1fr;}
+		
+		.gallery
+		{grid-column:1;
+		}
+		
+		
+		
+		.questions
+		{grid-column:2;
+		padding-left: 15px;}
+		
+		.vacation
+		{grid-column:1 span/2;}
+		
+		.galleryflex
+		{margin-top: 3px;
+		flex-wrap:wrap;
+		
+		}
+		
+		.galleryimg
+		{border: 1px solid black;
+		margin: 2px 5px 5px 5px;}
+		
+		.credits
+		{border-top:1px solid #f3714a;
+		border-bottom:1px solid #f3714a;
+		font-size:75%;
+		grid-column: 1 span/2;
+		padding-bottom:0;}
+		
+		.creditshd
+		{font-weight:bold;
+		font-size: 90%;}
+		
+		footer
+		{margin-top: 10px;
+		border-top: 3px solid #002146;}
